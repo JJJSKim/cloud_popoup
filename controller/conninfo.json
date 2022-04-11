@@ -1,0 +1,6 @@
+{
+  "mysql_host" : "211.183.3.136",
+  "mysql_user" : "remote",
+  "mysql_password" : "TEst!234",
+  "mysql_db" : "project01"
+}
