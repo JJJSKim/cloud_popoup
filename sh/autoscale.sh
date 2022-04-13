@@ -1,3 +1,11 @@
+
+workers=("17.7.1.129" "17.7.1.130")       #워커 지정
+max_replication=10                              #최대 replication
+min_replication=2                               #최소 replication
+var_replication=2                               #replication 변동폭
+max_value=30                                    #cpu/ram max 임계값(%) 해당값 이상일시 replication 증가
+min_value=30                                    #cpu/ram min 임계값(%) 해당값 이하일시 replication 감소
+
 ###각 워커 반복 시작###
 for var in "${workers[@]}"
 do
